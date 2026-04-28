@@ -1,0 +1,214 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<!-- حددت اللغة عربي والاتجاه من اليمين لليسار -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- هذا يخلي الصفحة تشتغل تمام على الجوال -->
+
+    <title>اتصل بنا | مؤسسة السمع</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- مكتبة أيقونات استخدمتها في الصفحة -->
+</head>
+
+<body>
+
+    <header>
+        <!-- هذا الهيدر حق الموقع -->
+
+        <div class="container header-container">
+            <!-- حطيت container عشان يرتب العناصر -->
+
+            <div class="logo">
+                <img src="image/logo2.png" alt="مؤسسة السمع" class="logo">
+                <!-- شعار المؤسسة -->
+            </div>
+
+            <!-- هذا استخدمته عشان قائمة الجوال -->
+            <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+
+            <label for="menu-checkbox" class="menu-toggle">
+                <i class="fas fa-bars"></i>
+                <!-- أيقونة القائمة -->
+            </label>
+
+            <nav>
+                <!-- روابط الصفحات -->
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+
+                    <!-- هنا حطيت active عشان تبين أن هذه الصفحة الحالية -->
+                    <li><a href="contact.html" class="active">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <!-- هذا عنوان الصفحة في الأعلى -->
+
+        <div class="container">
+            <h1>تواصل معنا</h1>
+            <!-- العنوان الرئيسي -->
+            <p>نحن هنا دائمًا لسماعك وتلبية احتياجاتك</p>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <!-- هذا القسم حق معلومات التواصل والنموذج -->
+
+        <div class="container contact-wrapper">
+            <!-- قسمت الصفحة إلى جهتين -->
+
+            <div class="contact-info">
+                <!-- هنا معلومات التواصل -->
+
+                <span class="subtitle">تواصل</span>
+                <h2>معلومات التواصل</h2>
+
+                <p>
+                    نحن هنا للإجابة على استفساراتك وتقديم الدعم اللازم لك ولعائلتك في أي وقت.
+                </p>
+                
+                <div class="contact-item">
+                    <!-- رقم الهاتف -->
+
+                    <i class="fas fa-phone"></i>
+
+                    <div>
+                        <strong>رقم الهاتف:</strong><br>
+                        +966 500 000 000
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <!-- البريد الإلكتروني -->
+
+                    <i class="fas fa-envelope"></i>
+
+                    <div>
+                        <strong>البريد الإلكتروني:</strong><br>
+                        info@hearing-foundation.com
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <!-- عنوان المؤسسة -->
+
+                    <i class="fas fa-location-dot"></i>
+
+                    <div>
+                        <strong>العنوان:</strong><br>
+                        شارع الملك فهد، الرياض، المملكة العربية السعودية
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <!-- روابط السوشيال ميديا -->
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <!-- هذا نموذج إرسال رسالة -->
+
+                <input type="text" placeholder="اسمك الكريم" required>
+                <!-- حقل الاسم -->
+
+                <input type="email" placeholder="بريدك الإلكتروني" required>
+                <!-- حقل الإيميل -->
+
+                <input type="text" placeholder="رقم الجوال">
+                <!-- حقل رقم الهاتف -->
+
+                <textarea placeholder="كيف يمكننا مساعدتك؟" rows="5" required></textarea>
+                <!-- حقل الرسالة -->
+
+                <button type="submit" class="main-btn" style="text-align: center;">
+                    إرسال الرسالة
+                    <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
+                </button>
+                <!-- زر إرسال الرسالة -->
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <!-- هذا الفوتر أسفل الصفحة -->
+
+        <div class="container footer-content">
+
+            <div>
+                <div class="logo">
+                    <img src="image/logowhite.png" alt="" class="logo">
+                    <!-- شعار الفوتر -->
+                </div>
+
+                <div class="footer-about">
+                    <!-- نبذة عن المؤسسة -->
+
+                    <p>
+                        نعمل بشغف لنعيد الأمل والبسمة لمن يعانون من مشاكل السمع،
+                        من خلال تقنيات حديثة وكادر خبير يضع صحتك في المقام الأول.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <!-- روابط سريعة -->
+
+                <h3>روابط هامة</h3>
+
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <!-- معلومات التواصل -->
+
+                <h3>تواصل معنا</h3>
+
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    المملكة العربية السعودية، الرياض
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    +966 500 000 000
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    info@hearing-foundation.com
+                </p>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <!-- حقوق النشر -->
+
+            &copy; 2024 مؤسسة السمع للرعاية والتأهيل. جميع الحقوق محفوظة.
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- ربطت ملف الجافاسكربت عشان التفاعل في الصفحة -->
+
+</body>
+</html>
